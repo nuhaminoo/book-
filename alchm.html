@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alchemist- Book Detail Page</title>
+    <link rel="stylesheet" href="book-filter.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <!--- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome Link for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-2">
+        <div class="logo">
+          <div class="img">
+            <img src="img/woman-reading-book-while-drinking-coffee-5632630-4696294.png" alt="" />
+          </div>
+          <div class="title">
+            <h4>Bookzone<i class="fa-solid fa-grid"></i></h4>
+            <small>Book  Website</small>
+          </div>
+        </div>
+        <div class="search-box">
+          <div class="search-field">
+            <input
+              type="text"
+              placeholder="Search over 3000 Book titles"
+            />
+            <button class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="breadcrumb-container">
+      <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://www.pdfdrive.com" style="color: #90caaf">Books</a></li>
+        <li><a href="#">Alchemist-</a></li>
+      </ul>
+    </div>
+
+    <section class="book-overview">
+      <div class="img">
+        <img src="img/alchemist.jpg" alt="" />
+      </div>
+      <div class="book-content">
+        <h4></h4>
+        <div class="meta">
+          <div class="review">
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class=" fa-star"></i>
+              <span>4.0</span>
+            </div>
+            <div class="comment-like">
+              <small
+                ><img src="img/comment.png" alt="" /> <span>256 Reviews</span></small
+              >
+              <small><img src="img/like.png" alt="" /> <span>456k Likes</span></small>
+            </div>
+          </div>
+          <div class="social-btn">
+            <a href=""><i class="fa-brands fa-facebook-f"></i>Facebook</a>
+            <a href=""><i class="fa-brands fa-X"></i>X</a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
+            <a href=""><i class="fa-regular fa-envelope"></i>Email</a>
+          </div>
+        </div>
+        <p>
+          The Alchemist is a story of following one's dreams to find one's purpose in life.
+           The main character, Santiago, is a Spanish shepherd boy who leaves behind his job and family to search for his Personal Legend, 
+          a hidden treasure that he believes is buried near the pyramids in Egypt.
+        </p>
+        <div class="footer">
+          <div class="author-detail">
+            <div class="author">
+              <small>Written by</small>
+              <strong>Paulo Coelho</strong>
+            </div>
+            <div class="publisher">
+              <small>Publisher</small>
+              <strong>HarperCollins Publishers.</strong>
+            </div>
+            <div class="year">
+              <small>Year</small>
+              <strong>1988</strong>
+            </div>
+          </div>
+          <div class="badge">
+            <span><i class="fa-solid fa-book"></i>
+            <a href="pdf/the-alchemist-paulo-coelho.pdf" class="btn">Read Now</a>
+           
+          </span> 
+            <span><i class="fa-solid fa-radio"></i>
+              <a href=" https://www.digitalbook.io" class="btn">listen</a> 
+             
+            </span>
+          </div>
+        </div>
+    </section>
+    <section class="book-info">
+      <div class="detail-customer">
+        <div class="tabbtns">
+          <button class="tablink" data-btn="detail">Details Product</button>
+          <button class="tablink" data-btn="customer">Customer Reviews</button>
+        </div>
+        <div class="book-detail tabcontent" id="detail">
+          <div class="detail-line">
+            <strong>Book Title</strong><span>The Alchemist</span>
+          </div>
+          <div class="detail-line">
+            <strong>Author</strong><span>Paulo Coelho</span>
+          </div>
+          <div class="detail-line">
+            <strong>Edition Language</strong><span> Portuguese and english</span>
+          </div>
+          <div class="detail-line">
+            <strong>Book Format</strong><span>Paperback,Pages 137</span>
+          </div>
+          <div class="detail-line">
+            <strong>Date Published</strong><span>Originally published: 1988 </span>
+          </div>
+          <div class="detail-line">
+            <strong>Publisher</strong><span>HarperCollins </span>
+          </div>
+          <div class="detail-line tag-line">
+            <strong>Genera</strong>
+            <div class="tags">
+              <span> Novel</span>
+              <span>Fantasy Fiction</span>
+              <span>Drama</span>
+              
+            </div>
+          </div>
+        </div>
+        <div class="Customer Reviews tabcontent" id="customer">
+          <div class="rating">
+            <div class="rating-info">
+              <h3>Rating Information</h3>
+              <p>readers comment</p>
+            </div>
+            <div class="star">
+              <small><span>3.95</span>out of 5</small>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <strong>Showing 3 of 20 reviews</strong>
+          <div class="reviewer-container">
+            <div class="review">
+              <div class="img-detail">
+                <img src="img/av4.png" alt="">
+                <dsiv class="name">
+                  <h5>Maaz Official</h5>
+                  <small>1 year ago</small>
+                </div>
+              </div>
+              <div class="review-footer">
+                <p>It is a story of a shepherd , Santiago, who leaves his flock and his land to pursue his dream.
+                   A boy who is on a journey of discovering his destiny and realising his dream of finding a treasure. 
+                  This story tells us that the happiness , contentment, peace & joy of one’s life lies within his journey towards his dream of life. </p>     <div class="rating-star">
+                  <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>4.8</span>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="img-detail">
+                <img src="img/av7.png" alt="">
+                <div class="name">
+                  <h5> Shahab Rajper</h5>
+                  <small> a year ago</small>
+                </div>
+              </div>
+              <div class="review-footer">
+                <p>"The Alchemist" by Paulo Coelho is a captivating and inspiring novel that tells the story of a young shepherd boy named Santiago who embarks on a journey of self-discovery and fulfilling his dreams.
+                   This book is a classic that has touched the hearts of millions of readers worldwide.</p>
+                <div class="rating-star">
+                  <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>3.5</span>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="img-detail">
+                <img src="img/avter1.jpeg" alt="">
+                <div class="name">
+                  <h5> wardah abid</h5>
+                  <small>
+                   
+                    2 years ago</small>
+                </div>
+              </div>
+              <div class="review-footer">
+                <p>Alchemist is an encouraging story of a shepherd named Santiago whose purpose in life was traveling.
+                   One night, he saw a dream of a treasure, which he later found exactly where he was sleeping,
+                   but the real treasure was the lessons he absorbed during his journey.</p>
+                <div class="rating-star">
+                  <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>4.2</span>
+                </div>
+              </div>
+            </div>
+           
+    
+            <button>View More</button>
+          </div>
+        </div>
+      <div class="related-book">
+        <h4>Related Books</h4>
+          <div class="book">
+            <div class="img">
+              <img src="img/al1.JPG" alt="">
+            </div>
+              <div class="rating-review">
+                <span><i class="fa-solid fa-star"></i>4.7</span>
+                <span>24 Reviews</span>
+              </div>
+              </div>
+          <div class="book">
+            <div class="img">
+              <img src="img/al2.JPG" alt="">
+            </div>
+              <div class="rating-review">
+                <span><i class="fa-solid fa-star"></i>3.7</span>
+                <span>24 Reviews</span>
+              </div>
+               
+          <div class="morebtn">
+          <button class="view-more">View More</button>
+    </section>
+
+    <section class="subscription">
+      <div class="container">
+        <h4>Subscribe our newsletter for Latest <br> books updates</h4>
+        <div class="input">
+          <input type="text" placeholder="Type your email here">
+          <button>subscribe</button>
+        </div>
+      </div>
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+    </section>
+
+          <div class="social-links">
+            <h4>Follow Us</h4>
+          <ul class="links">
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+             <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+             <a href=""><i class="fa-brands fa-instagram"></i></a>
+           
+          </div>
+        </div>
+        <div class="categories list">
+          <h4>Book Genera</h4>
+         
+            ><a href="https://www.pdfdrive.com">Action</a>
+            <a href="https://www.pdfdrive.com">Adventure</a>
+            <a href="https://www.pdfdrive.com">Comedy</a>
+           <a href="https://www.pdfdrive.com">Crime</a>
+            <a href="https://www.pdfdrive.com">Drama</a>
+           <a href="https://www.pdfdrive.com">Fantasy</a>
+            <a href="https://www.pdfdrive.com">Horror</a>
+         
+        </div>
+       
+
+    <script>
+      const tabbtn = document.querySelectorAll(".tablink");
+      for (let i = s0; i < tabbtn.length; i++) {
+        tabbtn[i].addEventListener('click',() => {
+          let tabName = tabbtn[i].dataset.btn;
+          let tabContent = document.getElementById(tabName);
+          let AllTabContent = document.querySelectorAll(".tabcontent");
+          let tabbtns = document.querySelectorAll(".tablink");
+          for (let j = 0; j < AllTabContent.length; j++) {
+            AllTabContent[j].style.display = "none";
+          }
+          tabContent.style.display = "block";
+      }
+    </script>
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="../js/repeat-js.js"></script>
+    <script src="../js/increment-decrement.js"></script>
+    <script src="../js/back-to-top.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
